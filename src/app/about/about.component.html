@@ -1,0 +1,107 @@
+<div class="about-container">
+  <!-- Navigation Menu -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <h2>SSR Playground</h2>
+      </div>
+      <div class="nav-menu">
+        <a routerLink="/home" class="nav-link">Home</a>
+        <a routerLink="/about" class="nav-link active">About</a>
+        <button class="nav-cta-button" (click)="navigateToHome()">Go Home</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Hero Section -->
+  <section class="about-hero">
+    <div class="hero-content">
+      <h1 class="hero-title">About Our Project</h1>
+      <p class="hero-subtitle">Learn more about our Angular SSR playground and the technology behind it</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="about-content">
+    <div class="container">
+      <!-- Mission Section -->
+      <div class="content-section">
+        <h2 class="section-title">Our Mission</h2>
+        <p class="section-text">
+          We're dedicated to showcasing the power and capabilities of Angular with Server-Side Rendering (SSR). 
+          This playground demonstrates modern web development practices, performance optimizations, and 
+          user experience enhancements that SSR brings to Angular applications.
+        </p>
+      </div>
+
+      <!-- Technology Stack -->
+      <div class="content-section">
+        <h2 class="section-title">Technology Stack</h2>
+        <div class="tech-grid">
+          <div class="tech-card">
+            <div class="tech-icon">🅰️</div>
+            <h3>Angular</h3>
+            <p>Modern TypeScript framework for building scalable web applications</p>
+          </div>
+          <div class="tech-card">
+            <div class="tech-icon">⚡</div>
+            <h3>SSR</h3>
+            <p>Server-Side Rendering for improved performance and SEO optimization</p>
+          </div>
+          <div class="tech-card">
+            <div class="tech-icon">🎨</div>
+            <h3>Modern CSS</h3>
+            <p>Responsive design with CSS Grid, Flexbox, and smooth animations</p>
+          </div>
+          <div class="tech-card">
+            <div class="tech-icon">🔧</div>
+            <h3>TypeScript</h3>
+            <p>Type-safe development with enhanced developer experience</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features Section -->
+      <div class="content-section">
+        <h2 class="section-title">Key Features</h2>
+        <div class="features-list">
+          <div class="feature-item">
+            <div class="feature-number">01</div>
+            <div class="feature-content">
+              <h3>Fast Loading</h3>
+              <p>Server-side rendering ensures faster initial page loads and better user experience.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-number">02</div>
+            <div class="feature-content">
+              <h3>SEO Optimized</h3>
+              <p>Pre-rendered content improves search engine visibility and social media sharing.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-number">03</div>
+            <div class="feature-content">
+              <h3>Modern Design</h3>
+              <p>Clean, responsive interface that works seamlessly across all devices and browsers.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-number">04</div>
+            <div class="feature-content">
+              <h3>Developer Friendly</h3>
+              <p>Built with modern development practices and maintainable, scalable code architecture.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="cta-section">
+        <h2>Ready to Explore?</h2>
+        <p>Experience the power of Angular SSR in action</p>
+        <button class="cta-button" (click)="navigateToHome()">Back to Home</button>
+      </div>
+    </div>
+  </section>
+</div>

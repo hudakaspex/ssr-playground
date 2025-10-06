@@ -1,0 +1,72 @@
+<div class="home-container">
+  <!-- Navigation Menu -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <h2>SSR Playground</h2>
+      </div>
+      <div class="nav-menu">
+        <a routerLink="/home" class="nav-link active">Home</a>
+        <a routerLink="/about" class="nav-link">About</a>
+        <button class="nav-cta-button" (click)="navigateToAbout()">Learn More</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Welcome to Our Amazing App</h1>
+      <p class="hero-subtitle">Discover the power of modern web development with Angular SSR</p>
+      <button class="cta-button" (click)="navigateToAbout()">Get Started</button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🚀</div>
+          <h3>Fast Performance</h3>
+          <p>Lightning-fast loading times with server-side rendering for optimal user experience.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔧</div>
+          <h3>Easy to Use</h3>
+          <p>Intuitive interface designed with user experience in mind. Get started in minutes.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌟</div>
+          <h3>Modern Design</h3>
+          <p>Beautiful, responsive design that looks great on all devices and screen sizes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <h3 class="stat-number">10k+</h3>
+          <p class="stat-label">Happy Users</p>
+        </div>
+        <div class="stat-item">
+          <h3 class="stat-number">99.9%</h3>
+          <p class="stat-label">Uptime</p>
+        </div>
+        <div class="stat-item">
+          <h3 class="stat-number">24/7</h3>
+          <p class="stat-label">Support</p>
+        </div>
+        <div class="stat-item">
+          <h3 class="stat-number">50+</h3>
+          <p class="stat-label">Features</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
